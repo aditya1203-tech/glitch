@@ -1,0 +1,35 @@
+.min-h-screen{
+    min-height: 5vh;
+}
+.bg-red{
+    background-color: red;
+}
+
+.flex{
+    display: flex;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+
+
+@font-face {
+    font-family: valorant;
+    src: url(Valorant\ Font.ttf);
+}
+
+.valo{
+    background-image: url('https://wallpapers.com/images/featured/valorant-305kescxw5dpup7y.jpg');
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+}
+
