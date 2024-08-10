@@ -1,16 +1,40 @@
 *{
     margin: 0;
     padding: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
-.container{
-    max-width: 80vw;
-}
+
 
 .navbar{
     display: flex;
-    height: 70px;
+    height: 65px;
+    width: 100%;
+    padding: 0%;
+    margin-top: 0;
+    position: relative;
+
 }
 .navbar li{
     list-style: none;
-    margin: 0 120px;
+    margin: 0 100px;
+    position: relative;
+}
+
+.m{
+    margin: 0;
+}
+
+@font-face {
+    font-family: valorant;
+    src: url(Valorant\ Font.ttf);
+    font-family: beni;
+    src:url(BeniBold.ttf);
+}
+
+.zoom{
+    transition: transform 1.0s;
+}
+.zoom:hover{
+    transform: scale(1.06);
 }
